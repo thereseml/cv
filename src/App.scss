@@ -1,0 +1,14 @@
+// colors
+$mygreen: #4a6054;
+$mybeige: #c4bdb5;
+
+body {
+  background-color: $mygreen;
+}
+
+main {
+  background-color: $mybeige;
+  max-width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
