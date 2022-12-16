@@ -1,7 +1,10 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { RiComputerLine } from "react-icons/ri";
+
 export function Portfolio({}) {
   return (
-    <section className="Portfolio">
+    <section className="portfolio">
       <h2>Portfolio</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
@@ -12,6 +15,100 @@ export function Portfolio({}) {
         arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet,
         consectetur adipiscing elit.
       </p>
+      <div className="flexDiv">
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+        <div className="flexItem">
+          <h3>Project 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
+            diam
+          </p>
+          <div className="icons">
+            <a href="http://">
+              <FaGithub />
+            </a>
+            <a href="http://">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
