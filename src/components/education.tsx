@@ -1,4 +1,3 @@
-import React from "react";
 import iconComputer from "../img/iconComputer.png";
 
 export function Education({}) {
@@ -22,7 +21,7 @@ export function Education({}) {
             - Inriktning Webbdesign år 1 <br />- Inriktning Foto år 2
           </p>
         </div>
-        <img src={iconComputer} />
+        <img src={iconComputer} alt="tjej som sitter vid laptop" />
       </section>
     </>
   );
