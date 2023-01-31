@@ -2,6 +2,7 @@
 $mygreen: #4a6054;
 $mybeige: #c4bdb5;
 
+// heading
 body {
   background-color: $mygreen;
   width: 100%;
@@ -10,17 +11,17 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  overflow-x: hidden;
 }
 
 main {
   position: relative;
   background-color: $mybeige;
   width: 80vw;
-  height: 70vh;
+  height: auto;
   padding: 1rem;
   margin: auto;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  overflow: scroll;
 }
 
 .logoDiv {
@@ -42,38 +43,35 @@ main {
 }
 
 header {
-  outline: 1px solid blue;
-  padding: 1rem;
-}
+  nav {
+    ul {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
 
-nav {
-  padding: 1rem;
-  outline: 1px solid red;
-}
-ul {
-  margin: 0px;
-}
-li {
-  float: left;
-  list-style: none;
-  margin: 0 0.5rem 0 0;
-}
+      li {
+        list-style: none;
+        margin: 0px 10px;
 
-a {
-  color: $mygreen;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  &:hover {
-    color: black;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          color: $mygreen;
+          &:hover {
+            color: #666;
+          }
+        }
+      }
+    }
   }
 }
 
-section {
-  outline: 1px solid green;
-}
+.Home {
+  display: flex;
+  width: 50vw;
 
-.Education {
   img {
     position: absolute;
     width: 300px;
@@ -82,7 +80,25 @@ section {
   }
 }
 
-.Home {
+.Experience {
+  display: flex;
+  justify-content: space-around;
+
+  .expDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Education {
+  display: flex;
+  justify-content: space-around;
+
+  .eduDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
   img {
     position: absolute;
     width: 300px;
@@ -95,10 +111,25 @@ section {
   .flexDiv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     .flexItem {
-      width: 30%;
-      margin: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+      width: 20vw;
+      padding: 10px;
+      margin: 10px;
+
+      img {
+        width: 15vw;
+        border: 1px solid rgba(147, 147, 147, 0.5);
+        margin: 10px 0px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+      }
 
       .icons {
         font-size: 1.5rem;
@@ -108,5 +139,23 @@ section {
         }
       }
     }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  svg {
+    color: black;
+    font-size: 30px;
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  li {
+    font-size: 12px;
   }
 }

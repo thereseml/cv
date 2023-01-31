@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import logo from "../img/logo.png";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export function Layout() {
   return (
@@ -16,13 +17,13 @@ export function Layout() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Hem</Link>
               </li>
               <li>
-                <Link to="/experience">Experience</Link>
+                <Link to="/experience">Erfarenhet</Link>
               </li>
               <li>
-                <Link to="/education">Education</Link>
+                <Link to="/education">Utbildning</Link>
               </li>
               <li>
                 <Link to="/portfolio">Portfolio</Link>
@@ -32,6 +33,15 @@ export function Layout() {
         </header>
         <Outlet />
       </main>
+      <footer>
+        <h4>tm-l@live.se</h4>
+        <a href="https://www.facebook.com/profile.php?id=100004642035342">
+          <FaFacebookSquare />
+        </a>
+        <a href="https://www.linkedin.com/in/therese-lindholm-759368222/">
+          <FaLinkedin />
+        </a>
+      </footer>
     </>
   );
 }
