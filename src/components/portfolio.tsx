@@ -22,7 +22,11 @@ export function Portfolio({}) {
             springer bort så kan upphittaren skanna qr koden och få fram dina
             kontaktuppgifter. Byggt i React.
           </p>
+<<<<<<< HEAD
           <img src={qrPet} alt="bild på hemsidan QR Pet" />
+=======
+          <img src={qrPet} />
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
           <div className="icons">
             <a href="https://github.com/thereseml/QRPet">
               <FaGithub />
@@ -36,7 +40,11 @@ export function Portfolio({}) {
         <div className="flexItem">
           <h3>Angularuppgift (MovieShop)</h3>
           <p>En fiktiv filmbutik i Angular, med hjälp av api.</p>
+<<<<<<< HEAD
           <img src={movieShop} alt="bild på hemsidan movieshop" />
+=======
+          <img src={movieShop} />
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
           <div className="icons">
             <a href="https://github.com/thereseml/MovieShop">
               <FaGithub />
@@ -50,7 +58,11 @@ export function Portfolio({}) {
         <div className="flexItem">
           <h3>Grupparbete i Angular (Katana Sushi)</h3>
           <p>Fiktig restaurang med bokningssystem.</p>
+<<<<<<< HEAD
           <img src={katanaSushi} alt="bild på hemsidan Katana Sushi" />
+=======
+          <img src={katanaSushi} />
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
           <div className="icons">
             <a href="https://github.com/GamerShabandari/react-restaurang">
               <FaGithub />

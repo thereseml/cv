@@ -60,22 +60,61 @@ header {
           text-transform: uppercase;
           letter-spacing: 1px;
           color: $mygreen;
+<<<<<<< HEAD
           -webkit-animation: tracking-in-expand 0.7s
             cubic-bezier(0.215, 0.61, 0.355, 1) both;
           animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
             both;
+=======
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
           &:hover {
             color: #666;
           }
         }
       }
     }
+<<<<<<< HEAD
   }
 }
 
 .Home {
   display: flex;
   width: 40vw;
+=======
+  }
+}
+
+.Home {
+  display: flex;
+  width: 50vw;
+
+  img {
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+    right: 0px;
+  }
+}
+
+.Experience {
+  display: flex;
+  justify-content: space-around;
+
+  .expDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.Education {
+  display: flex;
+  justify-content: space-around;
+
+  .eduDiv {
+    display: flex;
+    flex-direction: column;
+  }
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 
   img {
     position: absolute;
@@ -116,8 +155,13 @@ header {
   .flexDiv {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     justify-content: space-around;
 
+=======
+    justify-content: space-between;
+    align-items: center;
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
     .flexItem {
       display: flex;
       flex-direction: column;
@@ -127,9 +171,12 @@ header {
       width: 20vw;
       padding: 10px;
       margin: 10px;
+<<<<<<< HEAD
       -webkit-animation: scale-up-center 0.4s
         cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+=======
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 
       img {
         width: 15vw;
@@ -167,6 +214,7 @@ footer {
   li {
     font-size: 12px;
   }
+<<<<<<< HEAD
   .Home {
     .iconWave {
       width: 50vw;
@@ -255,4 +303,6 @@ footer {
     transform: translateX(0);
     opacity: 1;
   }
+=======
+>>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 }
