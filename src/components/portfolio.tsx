@@ -6,12 +6,16 @@ import katanaSushi from "../img/katanasushi.png";
 
 export function Portfolio({}) {
   return (
-    <section className="Portfolio">
+    <section className="portfolio">
       <h2>Portfolio</h2>
       <p>
-        Här är ett litet urval av projekt jag gjort under min utbildning till
-        front end developer. Klicka på ikonerna för att se projekten live eller
-        repot på github.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
+        lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam
+        viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent
+        et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+        congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed
+        arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
       </p>
       <div className="flexDiv">
         <div className="flexItem">
@@ -36,7 +40,7 @@ export function Portfolio({}) {
 
         <div className="flexItem">
           <h3>Angularuppgift (MovieShop)</h3>
-          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p>
+          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p
           <img src={movieShop} alt="bild på hemsidan movieshop" />
           <img src={movieShop} />
           <div className="icons">
