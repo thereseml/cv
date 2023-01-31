@@ -5,7 +5,6 @@ export function Home() {
     <>
       <h2>Välkommen!</h2>
       <section className="Home">
-<<<<<<< HEAD
         <p>
           Jag heter Therese och är en blivande front end developer, tar examen
           Juni 2023, som älskar att skapa snygga och användarvänliga
@@ -18,10 +17,8 @@ export function Home() {
           att kommunicera och har hög arbetsmoral.
         </p>
         <img className="iconWave" src={iconWave} alt="Tjej som vinkar" />
-=======
         <p>Hejhej</p>
         <img src={iconWave} />
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
       </section>
     </>
   );
