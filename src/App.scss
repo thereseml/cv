@@ -5,6 +5,8 @@ $mybeige: #c4bdb5;
 // heading
 body {
   background-color: $mygreen;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,9 +27,6 @@ main {
 .logoDiv {
   display: flex;
   align-items: center;
-  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   .titleDiv {
     h1 {
@@ -60,27 +59,12 @@ header {
           text-transform: uppercase;
           letter-spacing: 1px;
           color: $mygreen;
-<<<<<<< HEAD
-          -webkit-animation: tracking-in-expand 0.7s
-            cubic-bezier(0.215, 0.61, 0.355, 1) both;
-          animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
-            both;
-=======
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
           &:hover {
             color: #666;
           }
         }
       }
     }
-<<<<<<< HEAD
-  }
-}
-
-.Home {
-  display: flex;
-  width: 40vw;
-=======
   }
 }
 
@@ -114,7 +98,6 @@ header {
     display: flex;
     flex-direction: column;
   }
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 
   img {
     position: absolute;
@@ -124,44 +107,12 @@ header {
   }
 }
 
-.Experience {
-  display: flex;
-  justify-content: space-around;
-
-  .expDiv {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.Education {
-  display: flex;
-  justify-content: space-around;
-
-  .eduDiv {
-    display: flex;
-    flex-direction: column;
-  }
-
-  img {
-    position: absolute;
-    width: 300px;
-    bottom: 0px;
-    right: 0px;
-  }
-}
-
-.Portfolio {
+.portfolio {
   .flexDiv {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
-    justify-content: space-around;
-
-=======
     justify-content: space-between;
     align-items: center;
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
     .flexItem {
       display: flex;
       flex-direction: column;
@@ -171,12 +122,6 @@ header {
       width: 20vw;
       padding: 10px;
       margin: 10px;
-<<<<<<< HEAD
-      -webkit-animation: scale-up-center 0.4s
-        cubic-bezier(0.39, 0.575, 0.565, 1) both;
-      animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-=======
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 
       img {
         width: 15vw;
@@ -187,10 +132,9 @@ header {
       }
 
       .icons {
-        font-size: 30px;
+        font-size: 1.5rem;
         text-align: center;
         a {
-          color: $mygreen;
           margin: 0 0.5rem;
         }
       }
@@ -214,95 +158,4 @@ footer {
   li {
     font-size: 12px;
   }
-<<<<<<< HEAD
-  .Home {
-    .iconWave {
-      width: 50vw;
-    }
-  }
-
-  .Portfolio {
-    .flexDiv {
-      .flexItem {
-        width: 70vw;
-        img {
-          width: 60vw;
-        }
-      }
-    }
-  }
-}
-
-// animations
-
-@-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@-webkit-keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-=======
->>>>>>> 28ac224bd4892abc59343bd4610442022adc243e
 }
