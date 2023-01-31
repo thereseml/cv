@@ -22,6 +22,8 @@ export function Education({}) {
             - Inriktning Webbdesign år 1 <br />- Inriktning Foto år 2
           </p>
         </div>
+        <img src={iconComputer} alt="tjej som sitter vid laptop" />
+
         <img src={iconComputer} />
       </section>
     </>

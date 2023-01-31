@@ -26,6 +26,7 @@ export function Portfolio({}) {
             springer bort så kan upphittaren skanna qr koden och få fram dina
             kontaktuppgifter. Byggt i React.
           </p>
+          <img src={qrPet} alt="bild på hemsidan QR Pet" />
           <img src={qrPet} />
           <div className="icons">
             <a href="https://github.com/thereseml/QRPet">
@@ -39,7 +40,8 @@ export function Portfolio({}) {
 
         <div className="flexItem">
           <h3>Angularuppgift (MovieShop)</h3>
-          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p>
+          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p
+          <img src={movieShop} alt="bild på hemsidan movieshop" />
           <img src={movieShop} />
           <div className="icons">
             <a href="https://github.com/thereseml/MovieShop">
@@ -54,6 +56,7 @@ export function Portfolio({}) {
         <div className="flexItem">
           <h3>Grupparbete i Angular (Katana Sushi)</h3>
           <p>Fiktig restaurang med bokningssystem.</p>
+          <img src={katanaSushi} alt="bild på hemsidan Katana Sushi" />
           <img src={katanaSushi} />
           <div className="icons">
             <a href="https://github.com/GamerShabandari/react-restaurang">
