@@ -6,7 +6,7 @@ export function Layout() {
   return (
     <>
       <div className="logoDiv">
-        <img src={logo} />
+        <img src={logo} alt="logga" />
         <div className="titleDiv">
           <h1>Therese Lindholm</h1>
           <h4>Front End Developer</h4>
