@@ -1,6 +1,3 @@
-import { Portfolio } from "./portfolio";
-import { Education } from "./education";
-import { Experience } from "./experience";
 import iconWave from "../img/iconWave.png";
 
 export function Home() {
@@ -20,8 +17,6 @@ export function Home() {
           att kommunicera och har hög arbetsmoral.
         </p>
         <img className="iconWave" src={iconWave} alt="Tjej som vinkar" />
-
-        <p>Hejhej</p>
         <img src={iconWave} />
       </section>
     </>
