@@ -1,3 +1,4 @@
+import React from "react";
 import iconComputer from "../img/iconComputer.png";
 
 export function Education({}) {
@@ -22,6 +23,7 @@ export function Education({}) {
           </p>
         </div>
         <img src={iconComputer} alt="tjej som sitter vid laptop" />
+
         <img src={iconComputer} />
       </section>
     </>
