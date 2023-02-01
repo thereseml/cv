@@ -98,14 +98,20 @@ header {
 
 .home {
   display: flex;
+  justify-content: space-around;
   width: 80vw;
+  height: 40vh;
 
   .countDownSection {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 10px;
+
     .countDownDiv {
       display: flex;
+      justify-content: space-around;
+
       .countDown {
         display: flex;
         flex-direction: column;
@@ -113,12 +119,14 @@ header {
         align-items: center;
         margin: 5px;
 
-        h4 {
+        h5 {
           margin: 0px;
+          font-size: 20px;
         }
 
         p {
           text-transform: uppercase;
+          margin: 0px;
         }
       }
     }
@@ -126,19 +134,9 @@ header {
 
   img {
     position: absolute;
-    width: 300px;
+    width: 15vw;
     bottom: 0px;
     right: 0px;
-  }
-}
-
-.Experience {
-  display: flex;
-  justify-content: space-around;
-
-  .expDiv {
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -232,8 +230,17 @@ footer {
   }
 
   .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+
+    .countDownSection {
+      .countDownDiv {
+        width: 80vw;
+      }
+    }
     .iconWave {
-      width: 50vw;
+      width: 30vw;
     }
   }
 

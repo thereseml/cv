@@ -48,23 +48,23 @@ export function Home() {
           <h3>Jag tar examen om</h3>
           <div className="countDownDiv">
             <div className="countDown">
-              <h4>{examDate.months}</h4>
+              <h5>{examDate.months}</h5>
               <p>Månader</p>
             </div>
             <div className="countDown">
-              <h4>{examDate.day}</h4>
+              <h5>{examDate.day}</h5>
               <p>Dagar</p>
             </div>
             <div className="countDown">
-              <h4>{examDate.hour}</h4>
+              <h5>{examDate.hour}</h5>
               <p>Timmar</p>
             </div>
             <div className="countDown">
-              <h4>{examDate.minute}</h4>
+              <h5>{examDate.minute}</h5>
               <p>Minuter</p>
             </div>
             <div className="countDown">
-              <h4>{examDate.second}</h4>
+              <h5>{examDate.second}</h5>
               <p>Sekunder</p>
             </div>
           </div>
