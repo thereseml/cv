@@ -39,7 +39,7 @@ export function Portfolio({}) {
 
         <div className="flexItem">
           <h3>Angularuppgift (MovieShop)</h3>
-          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p
+          <p>En fiktiv filmbutik i Angular, med hjälp av api.</p>
           <img src={movieShop} alt="bild på hemsidan movieshop" />
           <div className="icons">
             <a href="https://github.com/thereseml/MovieShop">

@@ -176,26 +176,28 @@ header {
       padding: 10px;
       margin: 10px;
 
-    img {
-      width: 15vw;
-      border: 1px solid rgba(147, 147, 147, 0.5);
-      margin: 10px 0px;
-      border-radius: 20px;
-      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    .icons {
-      font-size: 30px;
-      text-align: center;
-      a {
-        color: $mygreen;
-        margin: 0 0.5rem;
+      img {
+        width: 15vw;
+        border: 1px solid rgba(147, 147, 147, 0.5);
+        margin: 10px 0px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+      }
 
       .icons {
-        font-size: 1.5rem;
+        font-size: 30px;
         text-align: center;
         a {
+          color: $mygreen;
           margin: 0 0.5rem;
+
+          .icons {
+            font-size: 1.5rem;
+            text-align: center;
+            a {
+              margin: 0 0.5rem;
+            }
+          }
         }
       }
     }
@@ -307,5 +309,4 @@ footer {
     transform: translateX(0);
     opacity: 1;
   }
-
 }
