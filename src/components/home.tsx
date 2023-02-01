@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import iconWave from "../img/iconWave.png";
 
 export function Home() {
@@ -9,6 +9,25 @@ export function Home() {
     minute: 0,
     second: 0,
   });
+
+  useEffect(() => {
+    const examDate = new Date("2023-06-09T12:00:00");
+    const interval = setInterval(() => {
+      const now = new Date();
+      const diff = examDate.getTime() - now.getTime();
+      const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
+      const day = Math.floor(
+        (diff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+      );
+      const hour = Math.floor(
+        (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minute = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const second = Math.floor((diff % (1000 * 60)) / 1000);
+      setExamDate({ months, day, hour, minute, second });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
