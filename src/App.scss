@@ -5,8 +5,6 @@ $mybeige: #c4bdb5;
 // heading
 body {
   background-color: $mygreen;
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +17,7 @@ main {
   background-color: $mybeige;
   width: 80vw;
   height: auto;
-  padding: 1rem;
+  padding: 20px;
   margin: auto;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -27,6 +25,9 @@ main {
 .logoDiv {
   display: flex;
   align-items: center;
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   .titleDiv {
     h1 {
@@ -99,23 +100,6 @@ header {
   }
 }
 
-.Education {
-  display: flex;
-  justify-content: space-around;
-
-  .eduDiv {
-    display: flex;
-    flex-direction: column;
-  }
-
-  img {
-    position: absolute;
-    width: 300px;
-    bottom: 0px;
-    right: 0px;
-  }
-}
-
 .Experience {
   display: flex;
   justify-content: space-around;
@@ -144,37 +128,30 @@ header {
 }
 
 .portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   .flexDiv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
 
-    justify-content: space-around;
-  }
-  justify-content: space-between;
-  align-items: center;
-  .flexItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    width: 20vw;
-    padding: 10px;
-    margin: 10px;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-      both;
-    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    justify-content: space-between;
-    align-items: center;
     .flexItem {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       background-color: #fff;
-      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-      width: 20vw;
       padding: 10px;
-      margin: 10px;
+      margin: 0px 10px;
+      width: 24vw;
+      display: flex;
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+      -webkit-animation: scale-up-center 0.4s
+        cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 
       img {
         width: 15vw;
@@ -186,18 +163,9 @@ header {
 
       .icons {
         font-size: 30px;
-        text-align: center;
         a {
           color: $mygreen;
           margin: 0 0.5rem;
-
-          .icons {
-            font-size: 1.5rem;
-            text-align: center;
-            a {
-              margin: 0 0.5rem;
-            }
-          }
         }
       }
     }
@@ -227,10 +195,11 @@ footer {
     }
   }
 
-  .Portfolio {
+  .portfolio {
     .flexDiv {
       .flexItem {
         width: 70vw;
+        margin: 10px 0px;
         img {
           width: 60vw;
         }

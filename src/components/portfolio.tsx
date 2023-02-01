@@ -9,13 +9,9 @@ export function Portfolio({}) {
     <section className="portfolio">
       <h2>Portfolio</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
-        lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam
-        viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent
-        et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-        congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed
-        arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.
+        Här hittar ni ett litet urval av de projekt jag gjort under mina
+        studier. Klicka på ikonerna för att komma till github repo eller se
+        projektet live.
       </p>
       <div className="flexDiv">
         <div className="flexItem">
