@@ -17,8 +17,6 @@ export function Home() {
           att kommunicera och har hög arbetsmoral.
         </p>
         <img className="iconWave" src={iconWave} alt="Tjej som vinkar" />
-        <p>Hejhej</p>
-        <img src={iconWave} />
       </section>
     </>
   );
