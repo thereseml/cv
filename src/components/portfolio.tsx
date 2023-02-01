@@ -3,6 +3,8 @@ import { RiComputerLine } from "react-icons/ri";
 import qrPet from "../img/qrpet.png";
 import movieShop from "../img/movieshop.png";
 import katanaSushi from "../img/katanasushi.png";
+import ljungbys from "../img/ljungbys.png";
+import sawadeekha from "../img/sawadeekha.png";
 
 export function Portfolio({}) {
   return (
@@ -56,6 +58,34 @@ export function Portfolio({}) {
               <FaGithub />
             </a>
             <a href="https://gamershabandari.github.io/react-restaurang/">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+
+        <div className="flexItem">
+          <h3>Lia uppgift, elementor (Ljungby Semesterby)</h3>
+          <p>
+            Kund som önskade deras befintliga sida byggd i wordpres och
+            elementor.
+          </p>
+          <img src={ljungbys} alt="bild på hemsidan Ljungby Semesterby" />
+          <div className="icons">
+            <a href="https://ljungby-semesterby.se/">
+              <RiComputerLine />
+            </a>
+          </div>
+        </div>
+
+        <div className="flexItem">
+          <h3>Lia uppgift, elementor & woocommerce (SawadeeKha)</h3>
+          <p>
+            Kund som ville ha sammanslagning av två hemsidor, en webbshop och en
+            bokningssida för massagesalong.
+          </p>
+          <img src={sawadeekha} alt="bild på hemsidan SawadeeKha" />
+          <div className="icons">
+            <a href="https://sawadeekha.se/">
               <RiComputerLine />
             </a>
           </div>
