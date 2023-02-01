@@ -148,6 +148,7 @@ header {
   .expDiv {
     display: flex;
     flex-direction: column;
+    margin: 10px 0px;
   }
 }
 
@@ -219,6 +220,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 10px 0px;
 
   svg {
     color: black;
