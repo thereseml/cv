@@ -23,8 +23,6 @@ export function Education({}) {
           </p>
         </div>
         <img src={iconComputer} alt="tjej som sitter vid laptop" />
-
-        <img src={iconComputer} />
       </section>
     </>
   );

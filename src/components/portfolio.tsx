@@ -6,7 +6,7 @@ import katanaSushi from "../img/katanasushi.png";
 import ljungbys from "../img/ljungbys.png";
 import sawadeekha from "../img/sawadeekha.png";
 
-export function Portfolio({}) {
+export function Portfolio() {
   return (
     <section className="portfolio">
       <h2>Portfolio</h2>

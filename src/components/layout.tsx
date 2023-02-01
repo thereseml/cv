@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import logo from "../img/logo.png";
 import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 export function Layout() {
   return (
@@ -34,7 +35,10 @@ export function Layout() {
         <Outlet />
       </main>
       <footer>
-        <h4>tm-l@live.se</h4>
+        <h4>Kontaka mig:</h4>
+        <a href="mailto:tm-l@live.se">
+          <FiMail />
+        </a>
         <a href="https://www.facebook.com/profile.php?id=100004642035342">
           <FaFacebookSquare />
         </a>
