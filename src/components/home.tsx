@@ -34,13 +34,13 @@ export function Home() {
       <h2>Välkommen!</h2>
       <section className="home">
         <p>
-          Jag heter Therese och är en blivande front end developer som älskar
+          Jag heter Therese och är en blivande front end developer som gillar
           att skapa snygga och användarvänliga webbplatser. Jag har en passion
           för att lära mig nya saker och är alltid nyfiken på nya tekniker och
           metoder. Jag har en stor vilja att lära mig och utvecklas som
           utvecklare. Jag är en driven person som gillar att arbeta i team och
           har lätt för att samarbeta med andra. Jag är en positiv person som
-          gillar att ha roligt på jobbet och göra andra glada. Jag är
+          vill att ha roligt på jobbet och göra andra glada. Jag är
           lösningsorienterad och löser gärna problem, är bra på att kommunicera
           och har hög arbetsmoral.
         </p>

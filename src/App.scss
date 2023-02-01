@@ -18,6 +18,7 @@ h4,
 h5,
 p {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 h5 {
   font-family: "Oswald", sans-serif;
@@ -140,7 +141,7 @@ header {
   }
 }
 
-.Experience {
+.experience {
   display: flex;
   justify-content: space-around;
 
@@ -150,13 +151,15 @@ header {
   }
 }
 
-.Education {
+.education {
   display: flex;
   justify-content: space-around;
+  width: 60vw;
 
   .eduDiv {
     display: flex;
     flex-direction: column;
+    margin: 10px 0px;
   }
 
   img {
@@ -242,6 +245,18 @@ footer {
     .iconWave {
       width: 30vw;
     }
+  }
+
+  .education {
+    flex-direction: column;
+
+    img {
+      width: 40vw;
+    }
+  }
+
+  .experience {
+    flex-direction: column;
   }
 
   .portfolio {

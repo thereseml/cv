@@ -5,7 +5,7 @@ export function Education({}) {
   return (
     <>
       <h2>Utbildning</h2>
-      <section className="Education">
+      <section className="education">
         <div className="eduDiv">
           <h3>Medieinstitutet AB, Distans</h3>
           <h5>Front End Developer 2021-2023</h5>

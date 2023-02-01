@@ -4,7 +4,7 @@ export function Experience({}) {
   return (
     <>
       <h2>Erfarenheter</h2>
-      <section className="Experience">
+      <section className="experience">
         <div className="expDiv">
           <h3>Lia 1 / Praktikplats</h3>
           <h5>Wiberg Meida AB</h5>
