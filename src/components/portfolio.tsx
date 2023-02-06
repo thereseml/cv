@@ -50,7 +50,7 @@ export function Portfolio() {
         </div>
 
         <div className="flexItem">
-          <h3>Grupparbete i Angular (Katana Sushi)</h3>
+          <h3>Grupparbete i React (Katana Sushi)</h3>
           <p>Fiktig restaurang med bokningssystem.</p>
           <img src={katanaSushi} alt="bild på hemsidan Katana Sushi" />
           <div className="icons">
